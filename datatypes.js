@@ -13,3 +13,33 @@ let isloggedin="true" // boolean
 // symbol mostly used in react for uniqueness when using different components
 // objects
 console.log(typeof undefined)
+
+// primitive and non primitive data types depending upon how the data is stored and accessed from the memory
+
+// primitive
+// 7 types-> string,number,boolean,null,undefined,symbol,Bigint
+
+// non primitive
+// arrays,objects,functions
+
+// javascript is dynamically typed language meaning we dont need to pre define the data type of the variable it changes dynamically as and when we assign values to the variable
+
+let id=Symbol('123')
+let anotherid=Symbol('123')
+console.log(id===anotherid);
+
+let heros=["iron man","captain america","hulk","thor","black widow"]
+console.table(heros);
+
+let myobj={
+
+    name:"madhav",
+    age:12,
+}
+
+let myfunction=function(){
+    console.log("hello world");
+}
+
+console.log(typeof null);
+console.log(typeof myfunction);
