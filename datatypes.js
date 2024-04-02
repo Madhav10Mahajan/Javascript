@@ -43,3 +43,9 @@ let myfunction=function(){
 
 console.log(typeof null);
 console.log(typeof myfunction);
+
+/* 
+stack and heap
+stack(primitive) , heap(non primitive)
+in stack we get a copy of the variable where as we get refrence of the original variable from heap so whatever changes we make in that variable will be reflected in the original variable
+*/
