@@ -26,4 +26,5 @@ console.log(typeof(booleanloggedin));
 let somenumber=33
 let stringinnumber=String(somenumber)
 console.log(stringinnumber);
-console.log(typeof(stringinnumber));
+console.log(typeof(stringinnumber)); 
+
