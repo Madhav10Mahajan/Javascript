@@ -58,4 +58,4 @@ function getsum(arr){
     }
     return sum;
 }
-console.log(getsum(arr));
+console.log(getsum(arr)); 
