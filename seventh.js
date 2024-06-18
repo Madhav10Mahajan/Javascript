@@ -1,4 +1,4 @@
-// glohal scope
+// global scope
 var age=10; // can be accessed anywhere within the file irrespective of var,let const keyword
 console.log(age);
 for(let i=0;i<10;i++){
